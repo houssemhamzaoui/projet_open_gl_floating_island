@@ -1,0 +1,85 @@
+# =============================================================================
+#  Floating Island - what Elder Mirou says about the quests
+#
+#  Same format as assets/dialogue/npcs.txt. For each quest id:
+#    [id.offer]      when the quest is available (accepted when the dialogue ends)
+#    [id.progress]   while it is active, objectives not done yet
+#    [id.ready]      when every objective is done (turned in when the dialogue ends)
+#    [id.done]       after it was turned in, if no other quest is available
+#  And:
+#    [elder.later]   nothing to give right now, and no [id.done] to say
+# =============================================================================
+
+[first_steps.offer]
+Ah, a new face on the Floating Isles! Welcome, little traveler. I am Mirou.
+I have walked these islands for longer than the clouds can remember. Behind me stand the five portals: the color of each swirl shows where it leads.
+Purple goes to the Crystal island, gray-green to the Rocky Islet, amber to the Cave, icy blue to the Frost island, and pink to Sakura. Every island has a green portal back to this plaza.
+Before anything else, go and see the world! Visit Sakura, Frost, Crystal and the Cave island, then come back and tell me about it.
+
+[first_steps.progress]
+The islands are waiting for you. Sakura, Frost, Crystal and the Cave: walk on each of them.
+Remember: the portals behind me take you there in a blink. Or jump off an edge and hold Space to glide, if you like the wind.
+
+[first_steps.ready]
+You have seen all four? Wonderful! I can see the sky in your eyes.
+Here, take this: a Sky Ribbon. Tie it to your glider and the wind will leave a glowing trail behind you.
+
+[petal_collector.offer]
+Now, a favor for an old friend. Hana, the gardener of Sakura, lost her pink sakura gems in the wind.
+Five of them are scattered across her island. Could you find them for her?
+
+[petal_collector.progress]
+Hana's pink gems shine softly among the petals of Sakura Island. Five of them, if my memory serves.
+
+[petal_collector.ready]
+Five pink gems! Hana will be so happy.
+She asked me to give you this in return: petal wings for your glider. You'll fly like a blossom in spring.
+
+[voices.offer]
+My three friends live on the other islands, and they know secrets even I have forgotten.
+Hana tends the sakura trees, Rook explores the snow of Frost island, and Professor Lumen studies the crystals. Go and say hello to each of them.
+
+[voices.progress]
+Have you met everyone? Hana on Sakura, Rook on Frost, and Professor Lumen on the Crystal island. They usually wait near the portals.
+
+[voices.ready]
+So you have heard their stories. They all liked you, I can tell.
+Rook sent these for you: Swift Boots. You'll run like the wind, and leave a little gold behind you.
+
+[voices.done]
+That is all I have for you today, little traveler.
+But lately, I have felt shadows moving at the edges of the islands... Come back later. I may need your help.
+
+[shadows.offer]
+Dark creatures prowl the islands now. Shadows with red eyes, that bite the hands that come close.
+Please, chase five of them away. Be careful, and come back to me if you get hurt.
+
+[shadows.progress]
+The shadows still prowl at the edges of the islands. Five of them, my brave friend.
+
+[shadows.ready]
+The islands breathe more easily already. Thank you.
+Take this Heart of Courage. It will make you stronger for what comes next.
+
+[shadows.done]
+Something stirs deep under the Cave mountain. I can feel it in my old bones. Come back later.
+
+[cave_guardian.offer]
+The Cave Heart... An ancient guardian of rock and crystal protects it, deep in the chamber. Korvath, they called it.
+It sleeps like a statue, and a crystal seal keeps the Heart out of reach. But if someone walks into its chamber with a brave heart... it wakes.
+Watch it closely. When its arms rise, jump. When it crouches and scrapes the floor, step aside. When the floor glows, move!
+Defeat the guardian and bring the Heart back to the light. This will be your greatest adventure.
+
+[cave_guardian.progress]
+The guardian waits in the crystal chamber. Watch its movements: it always warns before it strikes.
+Arms up: jump over the shockwave. Crouching: dodge the charge, and strike while it is dazed against the wall. Glowing floor: get out of the circles!
+
+[cave_guardian.ready]
+You did it! The Cave Heart, free at last!
+The islands will remember you. Wear this crown of crystals: you have earned it, hero of the Floating Isles.
+
+[cave_guardian.done]
+Rest now, hero. The islands are at peace, and the clouds sing your name.
+
+[elder.later]
+There is nothing more I can ask of you for now, little traveler. Come back later!

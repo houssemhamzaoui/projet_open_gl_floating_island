@@ -1,0 +1,61 @@
+# =============================================================================
+#  Floating Island - quests
+#
+#  [quest_id]              starts a quest (the id is also used in quest_dialogue.txt)
+#  title: ...              shown in the tracker and the banners
+#  description: ...        a short summary
+#  giver: elder            the NPC who gives it and takes it back (default: elder)
+#  requires: other_id      only available after that quest was turned in
+#  locked: yes             never available (until the code calls unlock())
+#  objective: TYPE TARGET [COUNT] | label
+#      TYPE = visit   (TARGET = island: sakura, frost, crystal, cave, meadow, rocky, skyrock)
+#             collect (TARGET = gem: common, rare, amethyst, sakura, ice, spirit, caveheart)
+#             talk    (TARGET = NPC: elder, gardener, explorer, scholar)
+#             defeat  (TARGET = enemy kind: shadow, guardian, or "any")
+#      For visit / talk / collect, what you already did before accepting the
+#      quest counts too. For defeat, only what happens after accepting counts.
+#  reward: REWARD_ID | text shown when the quest is turned in
+#      REWARD_ID = glide_trail, sakura_glider, swift_boots, extra_heart, crystal_crown
+#
+#  Quests are offered in the order of this file.
+# =============================================================================
+
+[first_steps]
+title: First Steps
+description: See the four biome islands with your own eyes.
+objective: visit sakura | Visit Sakura Island
+objective: visit frost | Visit Frost Island
+objective: visit crystal | Visit Crystal Island
+objective: visit cave | Visit the Cave Island
+reward: glide_trail | Sky Ribbon: a glowing trail follows your glider
+
+[petal_collector]
+title: Petal Collector
+description: Hana's pink sakura gems are scattered around her island.
+requires: first_steps
+objective: collect sakura 5 | Pink sakura gems
+reward: sakura_glider | Sakura Glider: your glider turns into pink petal wings
+
+[voices]
+title: Voices of the Islands
+description: Say hello to Mirou's three friends.
+requires: petal_collector
+objective: talk gardener | Talk to Hana on Sakura Island
+objective: talk explorer | Talk to Rook on Frost Island
+objective: talk scholar | Talk to Professor Lumen on Crystal Island
+reward: swift_boots | Swift Boots: you sprint faster, leaving golden sparkles
+
+[shadows]
+title: Shadows on the Islands
+description: Strange shadow creatures have appeared. Chase them away.
+requires: voices
+objective: defeat any 5 | Shadow creatures defeated
+reward: extra_heart | Heart of Courage: one more heart of health
+
+[cave_guardian]
+title: The Cave Guardian
+description: Something guards the Cave Heart deep under the mountain.
+requires: shadows
+objective: defeat guardian 1 | Defeat the Cave Guardian
+objective: collect caveheart 1 | Take the Cave Heart
+reward: crystal_crown | Guardian's Crown: a crown of glowing crystals

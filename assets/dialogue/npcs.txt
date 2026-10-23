@@ -1,0 +1,52 @@
+# =============================================================================
+#  Floating Island - NPC dialogue
+#
+#  [name]   starts a conversation (the NPCs use: gardener, explorer, scholar).
+#           Every non-empty line after it is one page of text, shown with a
+#           typewriter effect. Lines starting with # are comments.
+#  [name.night]  if it exists, used instead of [name] at night.
+#  Edit freely: the game reads this file when it starts.
+# =============================================================================
+
+# Elder Mirou is the quest giver: what he says depends on the quests, see
+# assets/quests/quest_dialogue.txt.
+
+[gardener]
+Oh! Hello there! Careful where you step, the petals are still sleeping. I'm Hana, I look after the sakura trees.
+Have you met the little spirit that lives in the giant tree? It loves visitors. Walk close to the tree and it will come and say hello.
+If you are patient, it may even leave you a small golden gift.
+And here is a secret, just between us... On the far side of the island, away from the portal, someone hid a shining diamond near the shore.
+It sits behind a curved wall of big rocks. You won't see it from the middle of the island: walk along the shore and come at it from the sea side!
+Now go on, and say hi to the pink slimes for me. They love to follow people around.
+
+[explorer]
+Brr! Hello, friend! Rook's the name, exploring's the game. Mind the snow, it gets everywhere.
+The slimes here are terribly shy. Walk toward them and they hop away as fast as they can. Approach slowly if you want a closer look.
+Want to hear about my greatest discovery? To the south of this island, on the side opposite the portal, a tiny rock floats all by itself. I call it Sky Rock.
+It's too far to jump, I tried, twice! But with your glider, it's an easy hop: run off the southern shore and hold Space.
+They say a rainbow diamond waits on top. When you're done, just walk off the edge: the wind brings you back here.
+
+[scholar]
+Ah, a visitor! Fascinating. I am Professor Lumen, and I study the crystals of this island.
+Do you see the great crystal column in the middle? Its flat top holds a rare diamond. Scientifically speaking, it is extremely shiny.
+Six crystal steps spiral up around the column. Each one is exactly one unit higher than the one before, which is just low enough to jump.
+My advice: jump from step to step at walking speed. No need to run, the steps are close together.
+You will also find purple amethysts all over the island. I have catalogued five of them... but I keep losing count.
+And beware: the purple slimes are cautious. Come too close and they will hop away, offended.
+
+# ---- At night ----
+
+[gardener.night]
+Oh, you're up late too? The sakura look so soft under the moon...
+Look at the fireflies dancing between the trees! They only come out when the sun is asleep.
+The hidden diamond is still waiting on the far side of the island, behind the curved wall of rocks. Bring a lantern... or just follow the fireflies!
+
+[explorer.night]
+Brr! The nights on Frost island are something else. Look up: you can see every star from here!
+Did you know the stars turn slowly around the sky during the night? I've been mapping them.
+If you glide to Sky Rock in the dark, aim for the moonlight on the snow. Watch your step!
+
+[scholar.night]
+Ah, a nocturnal visitor! The crystals hum differently at night. Fascinating.
+The moon gives a cold blue light: perfect to admire the crystal column. Its six steps are still one unit apart, even in the dark.
+Do be careful: the shadows do not sleep at night, and neither, apparently, do I.
